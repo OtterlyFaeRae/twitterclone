@@ -1,0 +1,31 @@
+.sidebar {
+    background-color:rgb(224, 234, 239);
+    border-radius: 30px;
+    padding: 10px;
+    margin:10px;
+}
+
+.sidebar p {
+    width: 100%
+}
+
+.sidebar p:hover {
+    background-color: rgb(208, 219, 223);
+}
+
+body {
+    display:flex;
+    justify-content: space-around;
+}
+
+nav {
+    flex-basis:30%;
+}
+
+section {
+    flex-basis: 30%;
+}
+
+aside {
+    flex-basis: 30%;
+}
