@@ -46,17 +46,24 @@
 
 #status {
     width: 100%;
-    /* padding: 5px 15px 50px 30px */
+    padding: 0px;
     
 }
 
 #status_box {
     outline: none;
+    border:none;
     height: 25%;
     width:98%;
     box-sizing: border-box;
     resize: none;
     word-wrap: break-word;
+}
+
+#tweet {
+    background-color: rgb(47, 151, 255);
+    color: white;
+    width: 55%;
 }
 
 body {
@@ -66,6 +73,12 @@ body {
 
 nav {
     flex-basis:15%;
+}
+
+nav img {
+    max-height: 30px;
+    max-width: 30px;
+    align-self: center;
 }
 
 nav p {
@@ -87,6 +100,12 @@ section {
     border-top:1px rgb(235, 235, 235) solid;
 }
 
+section h3 {
+    margin: 5px 5px 0px 10px;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
 aside {
     flex-basis: 20%;
     margin-left:50px;
@@ -96,7 +115,30 @@ section div {
     border-bottom:1px rgb(235, 235, 235) solid;
     min-height: 100px;
     min-width: 99%;
-    padding:0px 0px 0px 10px
+}
+
+section div p{
+    padding-left:10px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
 }
 
 [placeholder] {
